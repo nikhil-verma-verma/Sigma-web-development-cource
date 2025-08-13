@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css delectors</title>
+    <style>
+        /*Element Selector */
+        /* div {
+             background-color: red;
+        }*/
+
+        /* class Selector */
+        .red {
+            background-color: red;
+        }
+
+        /*id selector*/
+        #green {
+            background-color: green;
+        }
+
+        /* child selector*/
+        div>p {
+            color: rgb(108, 12, 252);
+            background-color: brown;
+        }
+
+        /* descendant Selector */
+        div p {
+            color: rgb(108, 12, 252);
+            background-color: brown;
+        }
+
+        /* Universal selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited{
+           color: yellow
+        }
+        a:link{
+            color: green;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: blue;
+        }
+        p:first-child{
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="one">
+       <P>i am one</P> 
+       <p>i am two</p>
+
+    </main>
+    <div id="green">
+        I am a Div
+    </div>
+    <div class="red">
+        I am another div
+        <ARTicle>
+            <p>I am Pikachu</p>
+        </ARTicle>
+
+    </div>
+    <a href="https://www.google.com">Go To google</a>
+    <a href="https://www.facebook.com">go to facebook</a>
+</body>
+
+</html>
